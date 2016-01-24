@@ -77,3 +77,18 @@ figure:hover span {opacity: 0.76;filter:alpha(opacity=76);}
 }
  
 figcaption {padding-left: 20px;color: #fff; font-family: "Kaushan Script","Lato","arial"; font-size: 22px; background: #286090; width: 100%; position: absolute; bottom: 0; left: 0; line-height: 55px; height: 55px; z-index: 5}
+
+
+/*GALERIA*/
+#container {
+    background: #DDD;
+    max-width: 1000px;
+}
+.item {
+    width: 200px;
+    float: left;
+}
+.item img {
+    display: block;
+    width: 100%;
+}
