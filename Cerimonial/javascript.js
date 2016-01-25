@@ -1,5 +1,18 @@
+ $("#img").bind('mouseover',function(){
+    
+       $(this).animate({height:"200px",width:"200px"});
+   
+});
+$("#img").bind('mouseout',function(){
+    
+       $(this).animate({height:"76px",width:"75px"});
+      
+});
+
+
+
  //GALERIA
-   $(function () {
+ /*  $(function () {
 
     var $container = $('#container').masonry({
         itemSelector: '.item',
@@ -28,4 +41,4 @@ $.fn.masonryImagesReveal = function ($items) {
     });
 
     return this;
-};
+};*/
